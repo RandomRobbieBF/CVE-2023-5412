@@ -1,0 +1,16 @@
+POST /wp-json/wp/v2/posts/15278?_locale=user HTTP/1.1
+Host: wordpress.lan
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/118.0
+Accept: application/json, */*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Referer: http://wordpress.lan/wp-admin/post-new.php
+X-WP-Nonce: c2c6076a63
+X-HTTP-Method-Override: PUT
+Content-Type: application/json
+Content-Length: 214
+Origin: http://wordpress.lan
+Connection: close
+Cookie: wordpress_ecdcb476a7a41733a2e77015a9cd81cf=user%7C1698917338%7CzOI0TcBu0BS5kf57xjIXk0TdcK8s7GKPW1jUX4bDksv%7C1bcb5498022c7c5b916acfd5c234b7a2fbc6e0d5b0137c0e286ec79b9eaea965; splunkweb_csrf_token_8000=13882598699302331907; wordpress_test_cookie=WP%20Cookie%20check; PHPSESSID=fa1be68574a8099041267c7ee8ed7149; wp_lang=en_US; wordpress_logged_in_ecdcb476a7a41733a2e77015a9cd81cf=user%7C1698917338%7CzOI0TcBu0BS5kf57xjIXk0TdcK8s7GKPW1jUX4bDksv%7Cca8d659bcd0da2c6788e3ad7b55dcba825516f8c9a9a68d04f064f7cfa772da7
+
+{"id":15278,"title":"test","content":"<!-- wp:shortcode -->\n[ihrss-gallery type=\"GROUP1*\" w=\"600*\" h=\"170*\" speed=\"1*\" bgcolor=\"#FFFFFF*\" gap=\"5*\" random=\"YES*\"]\n<!-- /wp:shortcode -->","status":"publish"}
